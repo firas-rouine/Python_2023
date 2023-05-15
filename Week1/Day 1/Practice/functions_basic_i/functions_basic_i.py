@@ -8,12 +8,12 @@ print(number_of_food_groups())
 #2
 def number_of_military_branches():
     return 5
-print("number_of_days_in_a_week_silicon_or_triangle_sides " + str(number_of_military_branches()))
-
-
+#print(number_of_days_in_a_week_silicon_or_triangle_sides() + number_of_military_branches())
+#output = undefined
 #3
 def number_of_books_on_hold():
     return 5
+    return 10
 print(number_of_books_on_hold())
 # output = 5
 
@@ -21,6 +21,7 @@ print(number_of_books_on_hold())
 #4
 def number_of_fingers():
     return 5
+    print(10)
 print(number_of_fingers())
 # output = 5
 
@@ -36,7 +37,7 @@ x = number_of_great_lakes()
 # #6
 def add(b,c):
     print(b+c)
-    return(b+c)
+    return(b+c) #add return to sum number
 print(add(1,2) + add(2,3))
 # output = 3 , 5 , 8
 
