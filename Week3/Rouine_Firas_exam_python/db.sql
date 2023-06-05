@@ -1,0 +1,1 @@
+SELECT * FROM exam_python_db.shows;
