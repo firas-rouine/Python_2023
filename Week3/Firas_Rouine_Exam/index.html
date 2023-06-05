@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exam</title>
+</head>
+<body >
+    <!-- container -->
+    <div class="container">
+        <!-- the top of navbar -->
+        <div class="top-nav">
+            <h1>Live Scores</h1>
+            <div>
+                <p>SJC Ninjas - 314 </p>
+                <p>Ns Pirates - 159 </p>
+            </div>
+            <div>
+                <p>CHI Samurai - 0</p>
+                <p>TUL Wizads - 0</p>
+            </div>
+            <div>
+                <p>BOS Hackers - 13</p>
+                <p>TYO Youkai - 37</p>
+            </div>
+            <div>
+                <p>BOI Knights - 5</p>
+                <p>SEA Sea Lions - 11 </p>
+            </div>
+        </div>
+            
+        <!-- navbar -->
+        <div class="nav-bar">
+            <h1>DSNN</h1>
+            <ul>
+                <li>Football</li>
+                <li>Basketball</li>
+                <li>Baseball</li>
+                <li>Soccer</li>
+                <li>More...</li>
+            </ul>
+            <div class="img">
+                <img src="assets/search-light.png" alt="search iamge">
+                <img src="assets/hamburger-light.png" alt="hamburger-light iamge">
+                <img src="assets/user-circle-light.png" alt="user iamge">
+            </div>
+        </div>
+        <!-- boxes body -->
+        <div class="body-boxes">
+            <!-- col-1 -->
+            <div class="col-1">
+                <div class="box1">
+                    <h1>Top Stories</h1>
+                    <p>Ninjas up big in 5th</p>
+                    <p>Best sports cities</p>
+                    <p>Choi joins Hall of Fame</p>
+                    <p>Tournament underway</p>
+                    <p>Samaurai at Wizards...</p>
+                </div>
+                <div class="box2">
+                    <p>Customise your DSNN</p>
+                    <div>
+                        <button class="btn1">Sign In</button>
+                        <button class="btn2">Sign Up</button>
+                    </div>
+                </div>
+                <div class="box3">
+                    <p>Never miss a play</p>
+                    <button class="btn3" onclick="Remove(this)">Subscribe</button>
+                </div>
+            </div>
+            <!-- col-2 -->
+            <div class="col-2">
+                <div class="box4">
+                    <div class="header">
+                        <ul><li>Live </li></ul>
+                        <p> Ninjas leading Pirates</p>
+                        
+                    </div>
+                    <div class="row">
+                        <div class="col1">
+                            <img src="./assets/sjc-ninjas.png" alt="sjc-ninjas image">
+                            <p>San Jose</p>
+                            <h1>Ninjas</h1>
+                            <p>(10 W - 3 L)</p>
+                            <h1 class="ninja" onclick="Increase2()">314</h1>
+                        </div>
+                        <div class="col2">
+                            <p>VS</p>
+                            <p>0:13 remaining <br> 5th period</p>
+                        </div>
+                        <div class="col3">
+                            <img src="./assets//ns-pirates.png" alt="Pirates image">
+                            <p>San Jose</p>
+                            <h1>Pirates</h1>
+                            <p>(12 W - 2 L)</p>
+                            <h1 class="pirate" onclick="Increase1()">159</h1>
+                        </div>
+                    </div>
+                    <div class="footer">
+                        A conservation match between the two top-performing <br> sides in the Central league Division with a number 1 <br>seed at stake... <a href="#">get live updates</a>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
